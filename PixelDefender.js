@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pixel Bot 2ch
 // @namespace    http://tampermonkey.net/
-// @version      1.4.88
+// @version      1.4.88a
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks, xi
 // @match        https://pixel.vkforms.ru/*
