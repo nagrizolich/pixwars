@@ -5,6 +5,8 @@
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks, xi
 // @match        https://pixel.vkforms.ru/*
+// @downloadURL  https://raw.githubusercontent.com/Extered/pixwars/master/PixelBot.js
+// @updateURL    https://raw.githubusercontent.com/Extered/pixwars/master/PixelBot.js
 // @grant        none
 // ==/UserScript==
 
