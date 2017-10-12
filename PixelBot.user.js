@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Pixel Bot 2ch
+// @name         Pixel Bot Pasha
 // @namespace    http://tampermonkey.net/
 // @version      1.1.48
 // @description  try to take over the world!
