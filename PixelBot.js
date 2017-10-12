@@ -11,7 +11,7 @@
 function MyAwesomePixelBot() {
     window.MyAwesomePixelBot = MyAwesomePixelBot;
     MyAwesomePixelBot.url = {
-        script: 'https://drive.google.com/uc?export=download&confirm=no_antivirus&id=0B3tijp3qx-9NSXdEWEoyTF9iMmc'
+        script: 'https://raw.githubusercontent.com/Extered/pixwars/master/PixelBot.js'
     };
     MyAwesomePixelBot.refreshTime = 300;
     MyAwesomePixelBot.pts = 30;
