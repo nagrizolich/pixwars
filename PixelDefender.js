@@ -74,7 +74,11 @@ function XIDefBot() {
     document.body.appendChild(XIDefBot.loger);
     XIDefBot.log = function(x) {
         XIDefBot.loger.innerHTML += x + "<br>";
-        XIDefBot.loger.scrollTo(0, 10000)
+        if (XIDefBot.loger.scrollTo) {
+            XIDefBot.loger.scrollTo(0, 10000);
+        } else {
+            XIDefBot.loger.scrollTop = XIDefBot.loger.scrollHeight;   
+        }
     }
     ;
     XIDefBot.setState = function(s) {
