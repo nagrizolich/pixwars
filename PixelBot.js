@@ -5,15 +5,15 @@
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks, xi
 // @match        https://pixel.vkforms.ru/*
-// @downloadURL  https://raw.githubusercontent.com/Extered/pixwars/master/PixelBot.js
-// @updateURL    https://raw.githubusercontent.com/Extered/pixwars/master/PixelBot.js
+// @downloadURL  https://raw.githubusercontent.com/nagrizolich/pixwars/master/PixelBot.js
+// @updateURL    https://raw.githubusercontent.com/nagrizolich/pixwars/master/PixelBot.js
 // @grant        none
 // ==/UserScript==
 
 function MyAwesomePixelBot() {
     window.MyAwesomePixelBot = MyAwesomePixelBot;
     MyAwesomePixelBot.url = {
-        script: 'https://raw.githubusercontent.com/Extered/pixwars/master/PixelBot.js'
+        script: 'https://raw.githubusercontent.com/nagrizolich/pixwars/master/PixelBot.js'
     };
     MyAwesomePixelBot.refreshTime = 300;
     MyAwesomePixelBot.pts = 30;
@@ -26,7 +26,7 @@ function MyAwesomePixelBot() {
         },
         image: function() {
             return new Promise(function(resolve, reject) {
-                 fetch('https://raw.githubusercontent.com/Extered/pixwars/master/defence.json').then(function(data) {
+                 fetch('https://raw.githubusercontent.com/nagrizolich/pixwars/master/defence.json').then(function(data) {
                         data.json().then(function(answer){
                             resolve(answer.currentTarget);
                         }).catch(function(e) {
