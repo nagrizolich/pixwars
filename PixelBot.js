@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pixel Bot 2ch
 // @namespace    http://tampermonkey.net/
-// @version      1.1.42
+// @version      1.1.48
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks, xi
 // @match        https://pixel.vkforms.ru/*
@@ -26,7 +26,7 @@ function MyAwesomePixelBot() {
         },
         image: function() {
             return new Promise(function(resolve, reject) {
-                fetch('https://2ch.hk/pixelbotcnc.json').then(function(data) {
+                 fetch('https://raw.githubusercontent.com/Extered/pixwars/master/defence.json').then(function(data) {
                         data.json().then(function(answer){
                             resolve(answer.currentTarget);
                         }).catch(function(e) {
