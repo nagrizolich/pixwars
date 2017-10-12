@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pixel Bot 2ch
 // @namespace    http://tampermonkey.net/
-// @version      1.4.88a
+// @version      1.4.88ar
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks, xi
 // @match        https://pixel.vkforms.ru/*
@@ -328,3 +328,4 @@ if (window.loaded) {
     });
 }
 window.alert = function(smth){document.location.reload();}
+setTimeout(function(){document.location.reload();}, 1200000);
